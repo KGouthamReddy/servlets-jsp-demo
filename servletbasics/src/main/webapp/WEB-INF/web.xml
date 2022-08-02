@@ -30,4 +30,14 @@
   <url-pattern>/additionServlet</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+  	<servlet-name>ValidationServlet</servlet-name>
+  	<servlet-class>com.servlet.example.ValidationServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ValidationServlet</servlet-name>
+  <url-pattern>/validationServlet</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
